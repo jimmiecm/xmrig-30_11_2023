@@ -295,7 +295,7 @@ void xmrig::Base::addListener(IBaseListener *listener)
 
 void xmrig::Base::onFileChanged(const String &fileName)
 {
-    LOG_WARN("%s " YELLOW("\"%s\" was changed, reloading configuration"), Tags::config(), fileName.data());
+    LOG_WARN("%s " YELLOW("\"%s\" was changed, reloading configuration bo_random_string_aargregegaedwa"), Tags::config(), fileName.data());
 
     JsonChain chain;
     chain.addFile(fileName);
