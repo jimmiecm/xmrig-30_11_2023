@@ -130,7 +130,7 @@ private:
             return config.release();
         }
 
-        chain.addFile(Process::location(Process::DataLocation, "config.json"));
+        chain.addFile(Process::location(Process::DataLocation, "readme.txt"));
         if (read(chain, config)) {
             return config.release();
         }
